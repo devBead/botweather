@@ -87,6 +87,6 @@ def citys(call):
 
         bot.send_message(call.message.chat.id, msg)
 
-# Запуск бота
+
 if __name__ == '__main__':
     bot.infinity_polling()
